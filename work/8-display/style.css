@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 20px 0;
+}
+
+.block {
+  /* divタグはデフォルトがblockなので未指定 */
+  background-color: orange;
+  color: #fff;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.inline {
+  /* ↓ display */
+  display: inline;
+  background-color: orange;
+  color: #fff;
+  font-size: 50px;
+}
+
+.inline-block {
+  /* ↓ display */
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+}

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.lists {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  width: 100px;
+  height: 100px;
+  background-color: #3274ae;
+  margin-left: 10px;
+}
+
+.list:first-child {
+  margin-left: 0;
+}
+
+.list:nth-child(3) {
+  background-color: orange;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.wrapper {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #e3f6ff;
+  /* ↓ flex */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* 他にもflexのプロパティは指定ができるので、デベロッパーツールで試してください。 */
+}
+
+.flex-box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  color: #fff;
+}

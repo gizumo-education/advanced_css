@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.wrapper {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #e3f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  /* ↓ animation */
+  animation: anime 5s linear infinite;
+}
+
+@keyframes anime {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

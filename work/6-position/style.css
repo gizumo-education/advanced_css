@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.blue-box {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-color: #3274ae;
+  /* ↓ position */
+  position: relative;
+}
+
+.pink-box {
+  width: 75%;
+  height: 75%;
+  background-color: #d076ca;
+  /* 親要素であるblue-boxを基準としてtop, left, 25%の位置に配置 */
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.green-box {
+  width: 75%;
+  height: 75%;
+  background-color: #abd4d2;
+  /* 親要素であるpink-boxを基準としてtop, left, 25%の位置に配置 */
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}

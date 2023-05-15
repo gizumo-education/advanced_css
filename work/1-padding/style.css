@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.boxes {
+  background-color: #3274ae;
+  width: 700px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  /* ↓ padding */
+  padding: 20px;
+  /* boxのmarginではなく、親要素であるboxesのpaddingを使用する */
+}
+
+.box {
+  background-color: #e3f6ff;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.box:first-child {
+  margin-left: 0;
+}

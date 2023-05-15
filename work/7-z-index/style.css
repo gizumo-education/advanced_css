@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.blue-box {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-color: #3274ae;
+  position: relative;
+  /* ↓ z-index */
+  z-index: 0;
+}
+
+.pink-box {
+  width: 300px;
+  height: 300px;
+  background-color: #d076ca;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  /* z-indexを.green-boxより高い数値にすると、greenより前面に表示されます。 */
+  z-index: 100;
+}
+
+.green-box {
+  width: 300px;
+  height: 300px;
+  background-color: #abd4d2;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 200;
+}

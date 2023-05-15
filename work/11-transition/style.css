@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.wrapper {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #e3f6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: #3274ae;
+  cursor: pointer;
+  /* ↓ transition */
+  transition: all .5s;
+  /* .block:hover側にtransitionを設定すると、hoverから離した時に遅延しなくなるので注意 */
+
+}
+
+.block:hover {
+  background-color: orange;
+}

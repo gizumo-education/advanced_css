@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #3274ae;
+  margin-left: 30px;
+}
+
+.box:first-child {
+  margin-left: 0;
+}
